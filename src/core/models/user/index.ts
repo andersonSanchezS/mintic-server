@@ -95,4 +95,4 @@ UserSchema.methods.decryptPassword = async function (hashedPassword:string) {
     return passwordDecrypted
 }
 
-export default model<IUser>('user', UserSchema)
+export default model<IUser>('User', UserSchema)

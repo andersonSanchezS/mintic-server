@@ -17,13 +17,15 @@
     "@envs": "src/env",
     "@errors": "src/errors",
     "@utils": "src/utils",
-    "@validations": "src/validations"
+    "@validations": "src/validations",
+    "@middlewares": "src/middlewares"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
     "@types/crypto-js": "^4.1.1",
     "@types/express": "^4.17.14",
     "@types/jsonwebtoken": "^8.5.9",
+    "@types/multer": "^1.4.7",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
@@ -48,6 +50,7 @@
     "mongoose": "^6.7.2",
     "mongoose-unique-validator": "^3.1.0",
     "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
     "reflect-metadata": "^0.1.13",
     "validator": "^13.7.0"
   }
